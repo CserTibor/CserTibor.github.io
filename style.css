@@ -1,21 +1,19 @@
 
 body{
 	background-image: url("http://www.futurecrabstudios.com/wp-content/uploads/2017/06/Fresh-Website-Background-Image.jpg");
-  background-repeat: no-repeat;
-  background-position:center;
+	align-content:center;
   background-size:cover;
   background-attachment: fixed;
-	margin: 0px;
-	padding: 0px;
-	
+margin:0;
+margin-bottom:2%;
 	}
 	
 h1{
 	color: white;
 	background-color: black;
 	text-align: center;
-	line-height: 150px;
-	font-size:120px;
+	line-height:115%;
+	font-size:10vw;
 	font-family: Forte;
   margin: 0%;
   border:3px double white;
@@ -25,26 +23,23 @@ h2{
 	text-align:center;
 	color:white;
 	margin-top:50px;
-	font-size:300%;
+	font-size:8vw;
 	font-family: Latin;
 	}
 	
 .button{
 	margin: 10px;
-	border:5px solid black;
 	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 12px 12px 20px 0 rgba(0,0,0,0.19);
 	 border-radius: 5%;
 	opacity: 0.8;
   width:20%
 	}
 	.button:hover{
-	border: 5px double black;
-	border-radius: 5%;
 	opacity: 1;
 	transition 0.5s;
 	}
 a{
-	font-size: 24px;
+	font-size: 2.5vw;
 	border: 1px solid black;
 	color: lightgrey;
 	background-color: #007CBA;
@@ -68,19 +63,21 @@ a:hover{
 
 .frame{
   background: radial-gradient(#C0C1C1,darkgrey,#96999A,#676B6C,#323938);
-  margin: 0% 10%;
+  margin-left:5%;
+  margin-right:5%;
   border:3px double white;
   border-top:0px;
 }
 
 #inner{
   text-align:center;
-  font-size:35px;
+  font-size:3.5vw;
   font-weight:bold;
   margin-top:10%;
 }
 #control{
   text-align:center;
+  font-size: 2vw;
   margin-top:0%
 }
 
