@@ -6,11 +6,11 @@ margin:0px;
 
 /*button*/
 .collapsible {
-	background-color: #777;
+	background-color: #333;
 	color: white;
 	cursor: pointer;
 	padding: 5px;
-	width: 50%;
+	width: 35%;
 	border: 1px solid black;
 	text-align: left;
 	outline: none;
@@ -21,9 +21,9 @@ margin:0px;
 .content {
 	max-height:0;
 	overflow: hidden;
-	transition: max-height 0.2s ease-out;
+	transition: max-height 0.5s ease-out;
 	background-color: #f1f1f1;
-	width:50.8%;
+	width:35.8%;
 	
 }
 .active, .collapsible:hover {
@@ -34,22 +34,23 @@ margin:0px;
 .bar1, .bar2, .bar3 {
 width: 35px;
 height: 5px;
-background-color: #333;
+background-color: #FB8C00;
 margin: 1% 0;
-transition: 0.4s;
+transition: 0.8s;
+margin-left:92%;
 }
 .change .bar1 {
-transform: rotate(-45deg) translate(-9px, 6px) ;
+transform: rotate(-45deg) translate(-10px, 5px) ;
 }
 .change .bar2 {
 opacity: 0;
 }
 .change .bar3 {
-transform: rotate(45deg) translate(-12px, -8px) ;
+transform: rotate(45deg) translate(-10px, -5px) ;
 }
 
 .buttonstyle1{
-	width:99%;
+	width:98.9%;
 	margin:0px;
 	background-color:white;
 	color:black;
@@ -62,6 +63,83 @@ transform: rotate(45deg) translate(-12px, -8px) ;
 }
 
 .buttonstyle1:hover{
-	background-color: lightgrey;
+	background-color: #FFCC80;
 }
 
+h3{
+	float:right;
+	font-family:arial;
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-right:15%;
+	margin-left:5%;
+	margin-top:5px;
+	font-size:25px;
+}
+
+h1,h2{
+	color:#FB8C00
+}
+.rightside{
+	float:right;
+	color:black;
+	margin-right:10%;
+	font-family:arial;
+	font-weight:bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size:180%;
+}
+
+img{
+	height:300px;
+	width:auto;
+	margin-right: 25%;
+	float:right;
+	border:1px solid black;
+}
+
+
+
+.facebook{
+	color:white;
+	text-decoration: none;
+	background-color: #3b5998;
+	padding:10px 25px;
+	font-size:30px;
+	border-radius: 12px;
+	border: 2px solid #3b5998;
+}
+.facebook:hover{
+	color:white;
+	border:2px solid white;
+}
+
+.github{
+	color:white;
+	text-decoration: none;
+	background-color: #333;
+	padding:8px 20px;
+	font-size:30px;
+	border-radius: 12px;
+	border: 2px solid #333;
+}
+
+.github:hover{
+	color:white;
+	border:2px solid white;
+}
+
+.instagram{
+	background-color:#fb3958;
+	text-decoration: none;
+	color:white;
+	padding:10px 25px;
+	font-size:30px;
+	border-radius: 12px;
+	border: 2px solid #fb3958;
+}
+
+.instagram:hover{
+	color:white;
+	border:2px solid white;
+}
