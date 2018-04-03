@@ -1,15 +1,15 @@
 body{
 	margin:0px;
+	background-color:#333;
 }
+
 .homebutton{
 	position:absolute;
 	top:0;
 	float:left;
-	border:1px solid white;
-	opacity: 1;
-	margin:0px;
+	margin:5px;
+	width:5%;
 }
-
 .homebutton:hover{
 	opacity:0.8;
 

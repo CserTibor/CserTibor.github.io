@@ -1,22 +1,20 @@
 body{
-background-image:url("../img/.jpg");
-margin:0px;
+background-image:url("../img/contact_bg.jpg");
 background-size:cover;
-background-color:#888;
+background-repeat:no-repeat;
+margin:0px;
 }
 
 .homebutton{
 	position:absolute;
 	top:0;
 	float:left;
-	border:1px solid white;
-	opacity: 1;
-	margin:0px;
+	margin:5px;
+	width:5%;
 }
 
 .homebutton:hover{
 	opacity:0.8;
-
 }
 
 h1{
@@ -39,9 +37,19 @@ h2{
 	font-size:35px;
 }
 
+h3{
+	color:white;
+	float:right;
+	margin-right:500px;
+	margin-top:100px;
+	font-family: arial;
+	font-size:30px;
+}
+
 .gombok{
 	text-align:center;
 	display: block;
+	margin-top:50px;
 }
 
 .facebook{
@@ -62,11 +70,11 @@ h2{
 .github{
 	color:white;
 	text-decoration: none;
-	background-color: #333;
-	padding:10px 25px;
+	background-color: black;
+	padding: 10px 25px;
 	font-size:30px;
 	border-radius: 12px;
-	border: 2px solid #333;
+	border: 2px solid black;
 	transition-duration:0.2s;
 }
 

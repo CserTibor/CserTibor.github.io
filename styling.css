@@ -1,7 +1,7 @@
 body{
 background-image:url("img/laptop.jpg");
-background-size:cover;
 margin:0px;
+background-size:cover;
 }
 
 .collapsible {
@@ -101,9 +101,6 @@ h3{
 	line-height:30px;
 	margin-right:0px;
 }
-
-
-
 
 h4{
 	font-family:arial;
