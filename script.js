@@ -1,23 +1,24 @@
+$(document).on('swipeleft', '.ui-page', function(event){    
+    if(event.handled !== true) // This will prevent event triggering more then once
+    {    
+        var nextpage = $.mobile.activePage.next('[data-role="page"]');
+        // swipe using id of next page if exists
+        if (nextpage.length > 0) {
+            $.mobile.changePage(nextpage, {transition: "slide", reverse: false}, true, true);
+        }
+        event.handled = true;
+    }
+    return false;         
+});
 
-function open(val){
-location.href = val;
-}
-
-function mybutton(x) {
-	x.classList.toggle("change");
-}var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-	coll[i].addEventListener("click", function() {
-	this.classList.toggle("active");
-	var content = this.nextElementSibling;
-		if (content.style.maxHeight){
-		content.style.maxHeight = null;
-		}
-	else {
-		content.style.maxHeight = content.scrollHeight + "px";
-		} 
-	});
-};
-	
+$(document).on('swiperight', '.ui-page', function(event){     
+    if(event.handled !== true) // This will prevent event triggering more then once
+    {      
+        var prevpage = $(this).prev('[data-role="page"]');
+        if (prevpage.length > 0) {
+            $.mobile.changePage(prevpage, {transition: "slide", reverse: true}, true, true);
+        }
+        event.handled = true;
+    }
+    return false;            
+});
