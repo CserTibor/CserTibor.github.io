@@ -1,32 +1,244 @@
-<html>
-<head>
-	<title>Online Portfolio</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styling.css">
-	<script src="menu.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-			<div class="rightside">
-				<h1>Welcome to my Portfolio!</h1>
-				<h2>My name is Cser Tibor, <br>and my Hobby is Web developing.</h2>
-					<div class="buttons">
-						 <a class="button" href="aboutme/aboutme_index.html">About me</a>
-						 <a class="button" href="contact/contact_index.html">Contact</a>
-						 <a class="button" href="CV/CV_index.html">Download link to my CV</a>
-					</div>
-			</div>
-		<div class="collapsible" onclick="mybutton(this)">
-		<h3>Click here to check out my Projects </h3>
-			<div class="bar1"></div>
-			<div class="bar2"></div> 
-			<div class="bar3"></div>
-		</div>
-	<div class="content">
-		<a class="buttonstyle1" href="Projects/Quote/quote_index.html" target="_blank">Random Quote Generator</a>
-		<a class="buttonstyle1" href="Projects/RPS/RPS.html" target="_blank">Rock-Paper-Scissors</a>
-	</div>
-<script src="script.js"></script>
-</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Cser Tibor's Portfolio">
+
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2"  src="img/profil.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Cser
+            <span class="text-primary">Tibor Szabolcs</span>
+          </h1>
+          <div class="subheading mb-5">Hungary | 2870 Kisbér ·
+            <a href="mailto:cser.tibor.szabolcs@gmail.com">cser.tibor.szabolcs@gmail.com</a>
+          </div>
+          <p class="mb-5">I am a 19-year-old hobby Web Developer/Programmer. 
+		  Apart from being a hobby web developer, I enjoy most of my time playing computer games, listening to music or watching series and movies. 
+		  I love going to the gym and I like American Football. I also play guitar and I am fascinated about cars, future and technology.</p>
+
+		  
+		  
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/tibor.cser">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+			
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/tiborcser/"> 
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+			
+            <li class="list-inline-item">
+              <a href="https://github.com/CserTibor">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Suddenly</h3>
+              <div class="subheading mb-3">Nothing</div>
+			  <p> at all. </p>
+            </div>
+          </div>
+
+         
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+		  
+		  <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Petőfi Sándor Elementary School</h4>
+              <div class="subheading mb-3">In Kisbér</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2006 - 2014</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Táncsics Mihály Grammar School</h4>
+              <div class="subheading mb-3">In Kisbér</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2014 - 2018</span>
+            </div>
+          </div>
+		  			<h3>Languages</h3>
+
+		  		  <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">English</h4>
+              <div class="subheading mb-3">Vantage level (B2) Language Certificate</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2015</span>
+            </div>
+          </div>
+		  
+		  	<div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">German</h4>
+              <div class="subheading mb-3">Vantage level (B2) Language Certificate</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2017</span>
+            </div>
+          </div>
+		  
+          
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item"> <i class="devicons devicons-html5"><p class="list-inline-item list-text">HTML</p></i>
+            </li>
+            <li class="list-inline-item"> <i class="devicons devicons-css3"><p class="list-inline-item list-text">CSS</p></i>
+            </li>
+            <li class="list-inline-item"> <i class="devicons devicons-javascript"><p class="list-inline-item list-text">JavaScript</p></i>
+            </li>
+            <li class="list-inline-item"> <i class="devicons devicons-jquery"><p class="list-inline-item list-text">jQuery</p></i>
+            </li>
+            <li class="list-inline-item"> <i class="devicons devicons-bootstrap"><p class="list-inline-item list-text">Bootstrap</p></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				MS Office knowledge</li>
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				European Computer Driving License</li>
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				Great communication skills</li>
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				  Open mind for teamwork and learning</li>
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				Good at troubleshooting and solving</li>
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				Fast learning</li>
+			<li>
+				<i class="fa-li fa fa-check"></i>
+				„B” category driving license</li>
+
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+		  <p>When anyone asks me about my future, I say I would like to study Business Informatics on the Széchenyi István University in Győr.
+		I am planning to join different student groups and It would be great to find friends, who are ambitious and might start a Startup,
+		which I could be part of.</p>
+		<p>For the short term I am planning to find a job at least for the summer,
+		because I would like to get some experience in Web developing and Programming.
+		My goal is to learn as much and as soon as possible.
+        </div>
+      </section>
+     </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
