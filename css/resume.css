@@ -159,3 +159,7 @@ a:hover, a:focus, a:active {
 .projects-width{
 	width:100%;
 }
+
+.responsive-margin{
+	margin-bottom: 2rem !important;
+}
