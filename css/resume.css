@@ -148,9 +148,14 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #483D8B;
+  color: #fff;
 }
 
 a:hover, a:focus, a:active {
-  color: #483D8B;
+  color: #fff;
+}
+
+
+.projects-width{
+	width:100%;
 }
