@@ -154,6 +154,9 @@ a {
 a:hover, a:focus, a:active {
   color: #483D8B;
 }
+.btn-primary:focus {
+	color:white !important;
+}
 
 
 .projects-width{
