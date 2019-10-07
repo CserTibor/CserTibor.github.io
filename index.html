@@ -7,20 +7,12 @@
   <meta content="" name="keywords">
   <meta content="Cser Tibor - Webfejlesztő" name="description">
 
-  <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -31,7 +23,6 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -45,7 +36,7 @@
         <li><a href="#contact" >Kapcsolat</a></li>
       </ul>
     </div>
-    <!--/.nav-collapse -->
+
   </div>
 </div>
 
@@ -53,7 +44,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3">
-          <h4>HELLO, A NEVEM </h4>
+          <h4>ÜDV, A NEVEM </h4>
           <h1>CSER TIBOR</h1>
           <h4>WEBFEJLESZTŐ & EGYETEMISTA VAGYOK</h4>
         </div>
@@ -62,15 +53,57 @@
 
   </div>
 
-<!-- projektek -->
+<!-- projektek
+-->
 
-  <div id="works" class="container">
+<div id="works" class="container">
     <div class="row centered mt mb">
       <h1>Projektek</h1>
 
+        <h4 style="margin: 3%;">(A projektjeim elérhetőek <a class="ghlink" target="_blank" href="https://github.com/CserTibor">github</a>on)</h4>
 
+        <div class="card col-lg-7" >
+            <img src="img/portfolio/p1.png"  class="card-img-top pic">
+            <div class="card-body">
+                <h4 class="card-title">Kő-papír-olló</h4>
+                <p class="card-text">Az egyik legkorábbi, talán a legelső projektem. <br> Egyszerű JavaScript kód minimális HTML és CSS felhasználásával.</p>
+                <a href="projects/RPS/RPS.html" target="_blank" class="btn navbutton">Megnézem!</a>
+            </div>
+        </div>
+
+        <div class="card col-sm-7" >
+            <img src="img/portfolio/p2.png" class="card-img-top pic">
+            <div class="card-body">
+                <h4 class="card-title">Random Quote Generator</h4>
+                <p class="card-text">Régi projekt, minimális CSS és HTML használatával. Fontos eleme a JavaScript.</p>
+                <a href="projects/Quote/quote_index.html" target="_blank" class="btn navbutton">Megnézem!</a>
+            </div>
+        </div>
+
+        <div class="card col-sm-7" >
+            <img src="img/portfolio/p3.1.png" name="njszkpic" class="card-img-top pic">
+            <div class="gallery-btn">
+                <button onclick="prevpic()" class="btn navbutton"> < </button>
+                <button onclick="nextpic()" class="btn navbutton"> > </button>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">NJSZK Menedzsment</h4>
+                <p class="card-text">Webes menedzsment rendszer, adatbázissal, bejelentkezőfelülettel,
+                    blogbejegyzés kezeléssel és egyéb technológiákkal.<br>(PHP, Smarty, Bootstrap, PHPMailer)</p>
+                <a href="https://github.com/CserTibor/njszk.project" target="_blank" class="btn navbutton">GitHub</a>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 <!--rólam-->
 <div id="about" class="container">
@@ -79,9 +112,11 @@
     <p class="aboutcontent">
       A nevem Cser Tibor Szabolcs, másodéves informatikus hallgató vagyok.
       Főleg Weblapokkal foglalkozom, 2018 elején kezdett el érdekelni a programozás és a weblapkészítés.
-        2018 első felében javascriptet tanultam otthon, önszorgalomból. 2018 Második felében az egyetemen
-        a Neumann János Informatikai Szakkollégiumon által tartott PHP kurzuson vettem részt, valamint
-        egy külsős cég
+        2018 első felében javascriptet tanultam otthon, önszorgalomból. 2018 Második felében részt vettem az egyetemen
+        a Neumann János Informatikai Szakkollégiumon által szervezett PHP kurzuson, valamint
+        egy külsős cég indított egy ReactJS tanfolyamot is, amelyek 2018 végén, 2019 elején értek véget.
+      2019-ben az egyetem miatt elkezdtem C++-t is tanulni. Nyitottnak érzem magam bármilyen programnyelv megismerésére,
+      úgy gondolom, hogy gyorsan tanulok és könnyen megértem a problémákat.
     </p>
   </div>
 </div>
@@ -92,9 +127,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h2 class="centered">Elérhetőség</h2>
+        <h2 class="centered">Kapcsolat</h2>
 
-        <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+        <form class="contact-form php-mail-form" role="form" >
 
           <div class="form-group">
             <input type="name" name="name" class="form-control" id="contact-name" placeholder="Név" data-rule="minlen:4" data-msg="Nem megfelelő név (min.4 karakter)!" >
@@ -135,7 +170,7 @@
     <div class="container ">
       <div class="row centered">
         <div class="col-lg-4">
-          <a href="#" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://github.com/CserTibor" target="_blank"><i class="fa fa-github"></i></a>
         </div>
         <div class="col-lg-4">
           <a href="https://www.facebook.com/tibor.cser" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -147,12 +182,9 @@
     </div>
   </div>
 
-  <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/php-mail-form/validate.js"></script>
-
-  <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
 </body>

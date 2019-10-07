@@ -1,0 +1,77 @@
+body{
+	margin: 0px;
+
+}
+h1{
+	color: white;
+	background-color: black;
+	text-align: center;
+	line-height:115%;
+	font-size:5em;
+	font-family: Forte;
+	margin: 0px;
+	border:3px double white;
+	}
+	
+h2{
+	text-align:center;
+	color:white;
+	margin-top:0px;
+	font-size:3em;
+	font-family: Latin;
+	padding-top:1em;
+	}
+	
+.button{
+	margin:0.2em;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 12px 12px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 5%;
+	opacity: 0.8;
+	width:20%
+	}
+	.button:hover{
+	opacity: 1;
+	}
+
+
+.howtoplay{
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:35%;
+	margin-bottom:2em;
+}
+
+.frame{
+	background: radial-gradient(#C0C1C1,darkgrey,#96999A,#676B6C,#323938);
+	border:3px double white;
+	border-top:none;
+	text-align:center;
+	padding-bottom:2em;
+}
+
+#inner{
+	text-align:center;
+	font-size:2em;
+	font-weight:bold;
+	margin-top:1em;
+}
+#control{
+	text-align:center;
+	font-size: 1.5em;
+	margin-top:0;
+}
+
+.info{
+	text-decoration:none;
+	color:#333;
+	border:1px solid black;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 12px 12px 20px 0 rgba(0,0,0,0.19);
+	padding:0.25em;
+}
+
+.info:hover{
+	color: white;
+	}
+
